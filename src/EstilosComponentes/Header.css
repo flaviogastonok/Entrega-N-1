@@ -1,0 +1,37 @@
+.header{
+    border-radius: 5px;
+    color: rgba(241, 239, 239, 0.842);
+    width: 98vw;
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('Imagenes/daniel-van-den-berg-29Jx9qyTW14-unsplash.jpg');
+    opacity: 0.98;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background: linear-gradient(to bottom, rgba(0, 132, 255, 0.719), #88888825);*/
+}
+
+.navHeader{
+    display: flex;
+    flex-direction: row;
+}
+
+.ulnavbar{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
